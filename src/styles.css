@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  font-family: sans-serif, arial, helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+.textBlur{
+  color: transparent;
+  text-shadow: 0 0 1px #202122;
+}
+
+.navbar{
+  box-shadow: none;
+}
+
+a:hover{
+  color: red !important;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+  margin-top: 0;
+}
+
+.box-shadow{
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+}
+
+.img-fluid{
+  height: 300px !important;
+}
